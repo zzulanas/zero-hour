@@ -9,17 +9,17 @@ export default function Menu({ fixed }) {
     <>
       <div className="flex flex-wrap">
         <div className="w-full">
-          <nav className="relative flex flex-wrap items-center justify-between px-2 py-3 navbar-expand-lg bg-pink-500">
+          <nav className="relative flex flex-wrap items-center justify-between px-2 py-3 navbar-expand-lg bg-white-500">
             <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
               <div className="w-full relative flex justify-between lg:w-auto px-4 lg:static lg:block lg:justify-start">
                 <a
-                  className="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap uppercase text-white"
+                  className="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap uppercase text-black"
                   href="#pablo"
                 >
                   Zero Hour
                 </a>
                 <button
-                  className="text-white cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
+                  className="text-black cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
                   type="button"
                   onClick={() => setMenuOpen(!menuOpen)}
                 >
@@ -38,7 +38,7 @@ export default function Menu({ fixed }) {
                 <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
                   <li className="nav-item">
                     <a
-                      className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
+                      className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-black hover:opacity-75"
                       href="#pablo"
                     >
                       WHO WE ARE
@@ -46,7 +46,7 @@ export default function Menu({ fixed }) {
                   </li>
                   <li className="nav-item">
                     <a
-                      className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
+                      className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-black hover:opacity-75"
                       href="#pablo"
                     >
                       CHAPTERS
@@ -54,7 +54,7 @@ export default function Menu({ fixed }) {
                   </li>
                   <li className="nav-item">
                     <a
-                      className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
+                      className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-black hover:opacity-75"
                       href="#pablo"
                     >
                       OUR PLATFORM
@@ -62,7 +62,7 @@ export default function Menu({ fixed }) {
                   </li>
                   <li className="nav-item">
                     <a
-                      className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
+                      className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-black hover:opacity-75"
                       href="#pablo"
                     >
                       ZERO HOUR 101
@@ -70,7 +70,7 @@ export default function Menu({ fixed }) {
                   </li>
                   <li className="nav-item">
                     <a
-                      className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
+                      className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-black hover:opacity-75"
                       href="#pablo"
                     >
                       DONATE
