@@ -4,11 +4,15 @@ module.exports = {
   purge: ['./pages/**/*.js', './components/**/*.js'],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: theme => ({
+        'climate-march' : "url(/public/home-protest.jpg)"
+      })
+    },
     colors:{
       zhblue: {
         light: '#A1E8FF',
-        DEFAULT: '00C0FE',
+        DEFAULT: '#00C0FE',
         dark: '#008BB8'
       },
       black: colors.black,
