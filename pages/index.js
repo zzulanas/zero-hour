@@ -9,22 +9,23 @@ import classnames from "classnames";
 
 export default function Home() {
   return (
-    <div className="p-0">
+    <div>
       <Head>
         <title>Zero Hour</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <NavBar />
+      
       <main className="mx-auto">
-        <div className="grid grid-cols-5 gap-1">
-          <div className="bg-gradient-to-br from-zhorange via-red-500 to-pink-500 p-10 col-span-3 row-span-2">
+      <NavBar className="fixed"/>
+        <div className="grid md:grid-cols-5 gap-1">
+          <div className="bg-gradient-to-br from-zhorange via-red-500 to-pink-500 p-10 md:col-span-3 row-span-2">
             <div>
               <h1 className="text-8xl font-sans pb-10">THE TIME FOR <div className="text-white">ACTION</div> IS <div className="text-zhblue italic">NOW</div></h1>
               <h2 className="text-3xl font-mono">We cannot afford to wait any longer. <br/> Let's get to the roots of the climate crisis, <b>together.</b></h2>
             </div>
             <Button size="lg" textColor="zhblue" bgColor="gray" >JOIN THE MOVEMENT</Button>
           </div>
-          <div className="row-span-2 col-span-2 relative bg-zhblue">
+          <div className="row-span-2 md:col-span-2 relative bg-zhblue">
             <Image src="/home-protest.jpg"
             alt="Picture of Climate Justice March"
             layout="fill"
